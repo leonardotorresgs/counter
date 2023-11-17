@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="shortcut icon" href="assets/img/counter.png" type="image/x-icon">
+</head>
+<body>
+    <div id="counter">
+        
+        <div>
+            <button id="plus" class="count-button" onclick="calcCount(1)">+</button>
+            <span id="value">0</span>
+            <button id="minus" class="count-button" onclick="calcCount(-1)">-</button>
+        </div>
+
+        <button id="reset" onclick="calcCount(0)">Resetar</button>
+
+    </div>
+</body>
+<script src="assets/script.js"></script>
+</html>
